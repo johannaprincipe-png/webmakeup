@@ -1,0 +1,350 @@
+<!--este es la definicion del lenguaje a emplear--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="descripcion" content="Trabajo final "/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="NOFOLLOW"/>
+    <meta name="Autor" content="Jackelyn"/>
+    <meta name="keywords" content="Trabajo Final html,css"/>
+    <meta name="lang" content="es"/>
+    <meta name="revisit-after" content="2day"/>
+    <meta name="categoria" content="Trabajo Final"/>
+    <title>Pagina de Galerias</title>
+    <!-- Declaracion de ficheros de estilos -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--header contiene la navegacion de la pagina-->
+    <header>
+<!--En el Div menu Container, contiene el menu de navegacion-->
+        <div class="menu container">
+
+
+    
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="contacto.html">CONTACTOS</a></li>
+                        <li><a href="productos.html">PRODUCTOS</a></li>
+                        <li><a href="presupuestos.html">PRESUPUESTOS</a></li>
+                    </ul>
+                </div>
+                <img class="logo" src="images/Adobe Express - file.png" alt="">
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="contacto.html">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/?locale=es_ES" target="_blank">
+                            <div class="social">
+                                <img src="images/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://x.com/twitt_login?lang=es" target="_blank">
+                            <div class="social">
+                                <img src="images/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/makeupjackelyn?¡gsh=MW9yamo3ZzgzZHM2ZA" target="_blank">
+                            <div class="social">
+                                <img src="images/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+<!--En el Main Contiene los Productos que ofrece la pagina, se usa para controlar el flujo principal del programa -->
+<!--Los Tabs permite organizar y navegar entre contenidos relacionados-->        
+<nav>
+<main class="products">
+<!--Los tabs permiten organizar y presentar distintos bloques de contenido en el mismo lugar, mostrando uno a la vez al hacer clic en el encabezado de la pestaña correspondientes-->
+        <div class="tabs container">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for=" tab1">MAKEUP</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>NUEVO</h4>
+                                    <img src="images/maquillaje-rostro1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>PRODUCTOS</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">35€ </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>PARA CADA TIPO DE PIEL</h4>
+                                    <img src="images/tipos-de-piel.jpeg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>PRODUCTOS para la piel</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">36€ </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Limpieza de Rostros</h4>
+                                    <img src="images/limpiaza-de-rostro.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>PRODUCTOS de limpiesa de rostro</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">37 </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Cuidados de la piel</h4>
+                                    <img src="images/hipo-clinique.jpeg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Cuida tu piel</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">38 </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for=" tab2">MAKEUP SOCIAL</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>NUEVO</h4>
+                                    <img src="images/maquillaje-rostro1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>PRODUCTOS</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">35 </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>PARA CADA TIPO DE PIEL</h4>
+                                    <img src="images/tipos-de-piel.jpeg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>PRODUCTOS para la piel</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">36 </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Limpieza de Rostros</h4>
+                                    <img src="images/limpiaza-de-rostro.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>PRODUCTOS de limpiesa de rostro</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">37 </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Cuidados de la piel</h4>
+                                    <img src="images/Cuidado-de-la-piel.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Cuida tu piel</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">38 </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for=" tab3">MAKEUP DE NOVIA</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>NUEVO</h4>
+                                    <img src="images/maquillaje-rostro1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>PRODUCTOS</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">35 </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>PARA CADA TIPO DE PIEL</h4>
+                                    <img src="images/tipos-de-piel.jpeg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>PRODUCTOS para la piel</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">36 </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Limpieza de Rostros</h4>
+                                    <img src="images/limpiaza-de-rostro.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>PRODUCTOS de limpiesa de rostro</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">37 </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Cuidados de la piel</h4>
+                                    <img src="images/Cuidado-de-la-piel.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Cuida tu piel</h4>
+                                    <p>Calidad Premiun</p>
+                                    <span class="price">38 </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+
+            </div>
+
+        </div>     
+</main>
+</nav>
+    </header>
+
+
+<!--Foote se usa para crear la parte inferior de la pagina, tambien llamada pie de pagina contiene las redes sociales-->
+    <footer class="footer container">
+    
+        <div class="links">
+            <h4>AVISO LEGAL</h4>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+
+        <div class="txt">
+                    <h4>Direccion</h4>
+                    <p>
+                        nobis maxime sapiente beatae corporis
+                    </p>
+                    
+                    
+                    <p>
+                        veritatis, eos deserunt
+                    </p>
+                </div>
+
+
+
+        <div class="links">
+            <h4>REDES SOCIALES</h4>
+            <div class="socials">
+                        <a href="https://www.facebook.com/?locale=es_ES" target="_blank">
+                            <div class="social">
+                                <img src="images/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://x.com/twitt_login?lang=es" target="_blank">
+                            <div class="social">
+                                <img src="images/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/makeupjackelyn?¡gsh=MW9yamo3ZzgzZHM2ZA" target="_blank">
+                            <div class="social">
+                                <img src="images/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>   
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"> </script>
+</body>
+
+</html>
